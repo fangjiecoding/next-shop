@@ -1,6 +1,7 @@
 // 全局样式
 import "normalize.css";
 import "@/styles/globals.scss";
+import "antd/dist/reset.css";
 import { Provider } from "react-redux";
 import wrapper from "@/store/index";
 import Layout from "@/components/layout";
